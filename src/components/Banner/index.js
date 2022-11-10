@@ -1,11 +1,10 @@
-import banner from '../../assets/banner.png'
 import '../../styles/Banner.css'
 
-function Banner () { 
+function Banner ({picture, title, alt}) { 
     return (
         <div className='banner'>
-            <img src={banner} alt="banner" className="banner_image" />
-            <p className="banner_text">Chez vous, partout et ailleurs</p> 
+            <img src={picture} alt={alt} className="banner_image"/>
+            <p className="banner_text">{title}</p> 
         </div>
     )
 }
