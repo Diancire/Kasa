@@ -16,19 +16,24 @@
 
 .banner_text {
     position: absolute;
-    width: 705px;
-    height: 68px;
     font-size: 48px;
     color: #FFFFFF;
     font-style: normal;
     font-weight: 500;
-    left: 25.9%;
+    left: 10%;
     margin: 0;
-    right: 25.14%;
+    right: 10%;
     top: 30%;
     bottom: 49.04%;
     font-family: 'Montserrat';
-    display: flex;  
-    align-items: flex-end;
-    justify-content: center;
+}
+
+@media all and (max-width:812px) {
+    .banner_image {
+        height: 111px;
+        border-radius: 10px;
+    }
+    .banner_text {
+        font-size: 24px;
+    }
 }
