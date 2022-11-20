@@ -17,7 +17,7 @@ function Home() {
             />
             <div className='card_content'>
                 {lodgings.map((lodging) => (
-                <Link to={`/lodging/-${lodging.id}`} key={lodging.id}>
+                <Link to={`/lodging/${lodging.id}`} key={lodging.id}>
                     <Card
                         title={lodging.title}  
                         cover={lodging.cover}
