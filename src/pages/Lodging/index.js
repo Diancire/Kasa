@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom'
+import { useParams, Navigate } from 'react-router-dom'
 import Carrousel from '../../components/Carrousel'
 import Collapse from '../../components/Collapse'
 import LodgingInfo from '../../components/LodgingInfo'
@@ -9,6 +9,10 @@ function Lodging() {
 
    const { fichelogement } = useParams();
    const lodgingInfo = Lodgings.find(lodging => lodging.id === fichelogement);
+
+   if(lodgingInfo === undefined) {
+      return <Navigate to="*" />
+   }
 
    return (
       <div>
