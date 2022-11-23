@@ -51,7 +51,10 @@ body {
 }
 
 @media (min-width: 481px) and (max-width: 769px) {
-
+    .header {
+        margin-top: 20px;
+        margin-bottom: 16px;
+    }
     .header_logo {
         width: 145px;
         height: 47px;
@@ -63,7 +66,10 @@ body {
 }
 
 @media (max-width: 480px) {
-
+    .header {
+        margin-top: 20px;
+        margin-bottom: 16px;
+    }
     .header_logo {
         width: 145px;
         height: 47px;
