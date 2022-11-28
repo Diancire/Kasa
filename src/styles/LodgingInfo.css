@@ -104,11 +104,15 @@
     .lodging_location {
         font-size: 14px;
     }
+    .lodging_tags {
+        flex-wrap: wrap;
+    }
     .lodging_tag {
         font-size: 10px;
         border-radius: 5px;
         width: 84px;
         height: 18px;
+        margin-top: 5px;
     }
     .lodging_host_name {
         font-size: 12px;
