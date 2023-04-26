@@ -63,7 +63,10 @@ Pour le défilement des photos dans la galerie (composant Gallery) :
 
 
 ## Langages
-HTML/CSS - React - JavaScript
+- HTML
+- CSS 
+- React 
+- JavaScript
 
 
 ## Installation
